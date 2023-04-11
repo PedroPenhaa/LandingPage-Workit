@@ -52,6 +52,10 @@
 }
 
 @media (max-width: 769px){
+    .container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
     .heading-L{
         font-size: 60px;
     }
@@ -65,6 +69,10 @@
 }
 
 @media (max-width: 1440px){
+    .container{
+       max-width: 1120px;
+       margin: auto;
+    }
     .heading-L{
         font-size: 80px;
     }

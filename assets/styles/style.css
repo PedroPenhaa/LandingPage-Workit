@@ -44,3 +44,21 @@
     bottom: 60px;
     width: 320px;
 }
+
+@media(min-width: 768px){
+    .header_content{
+        padding-bottom: 203px;
+    }
+    .header_image{
+        width: 514px;
+    }
+}
+
+@media(min-width: 1440px){
+    .header_content{
+        padding-bottom: 255px;
+    }
+    .header_image{
+        width: 767px;
+    }
+}
